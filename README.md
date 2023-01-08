@@ -1,0 +1,2 @@
+The purpose of this game is to show how self destruct function call can be used to forcefully send ether to a smart contract without a fall back function
+EtherGame is a game where each user can deposit 1 ether, and the 7th person to deposit 1 ether wins all the ether stored on the contract. Once balance of the contract is equal to target Amount (7ETH), no more ether can be sent into the smart contract, transactions will be reverted.
